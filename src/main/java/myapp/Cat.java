@@ -15,4 +15,7 @@ public class Cat {
     public int getAge() {
         return age;
     }
+    public void died(){
+        this.age = 0;
+    }
 }
