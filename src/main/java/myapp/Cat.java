@@ -9,7 +9,7 @@ public class Cat {
         this.age = age;
     }
     public void HappyBirthday(){
-        this.age += 1.7;
+        this.age += 1;
     }
 
     public int getAge() {
@@ -17,5 +17,9 @@ public class Cat {
     }
     public void died(){
         this.age = 0;
+    }
+
+    public String getName() {
+        return name;
     }
 }
