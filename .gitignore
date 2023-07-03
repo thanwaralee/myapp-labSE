@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+out/
+ ###windows แค่ *.iml .idea/ out/ .DS_Store

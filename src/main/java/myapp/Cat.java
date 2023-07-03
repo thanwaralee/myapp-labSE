@@ -8,4 +8,7 @@ public class Cat {
         this.name = name;
         this.age = age;
     }
+    public void HappyBirthday(){
+        this.age += 1;
+    }
 }
