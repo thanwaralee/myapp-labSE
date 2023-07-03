@@ -9,6 +9,9 @@ public class Cat {
         this.age = age;
     }
     public void HappyBirthday(){
-        this.age += 1;
+        this.age += 0.7;
+    }
+    public void died(){
+        this.age = 0;
     }
 }
