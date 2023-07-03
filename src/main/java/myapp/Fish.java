@@ -13,8 +13,8 @@ public class Fish {
     }
 
     public void Swim_1min(){
-        this.swim += 0.5;
-        this.distance += 1;
+        this.swim += 1;
+        this.distance += 3;
     }
 
 }
