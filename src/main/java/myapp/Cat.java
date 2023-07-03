@@ -9,6 +9,10 @@ public class Cat {
         this.age = age;
     }
     public void HappyBirthday(){
-        this.age += 1;
+        this.age += 1.7;
+    }
+
+    public int getAge() {
+        return age;
     }
 }
